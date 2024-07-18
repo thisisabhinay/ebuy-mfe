@@ -2716,6 +2716,7 @@ __metadata:
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     react-refresh: "npm:^0.10.0"
+    react-router-dom: "npm:6.11.2"
     tailwindcss: "npm:3.4.3"
     ts-jest: "npm:^29.1.0"
     ts-node: "npm:10.9.1"
@@ -2777,6 +2778,13 @@ __metadata:
     webpack-plugin-serve:
       optional: true
   checksum: ba310aa4d53070f59c8a374d1d256c5965c044c0c3fb1ff6b55353fb5e86de08a490a7bd59a31f0d4951f8f29f81864c7df224fe1342543a95d048b7413ff171
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@remix-run/router@npm:1.6.2"
+  checksum: 73da6884e53873e4290abb3978373cafc3f351994273b0663eda5e12c81cb427fc6fe4df1924569d9a214f701d0106cf37122455951e0239d7e6fa35071df558
   languageName: node
   linkType: hard
 
@@ -12249,6 +12257,30 @@ __metadata:
   version: 0.10.0
   resolution: "react-refresh@npm:0.10.0"
   checksum: 616e82bed3787bf4e55dcc1c9836f251b93523dd4b0ffb1c24c2dcf5d09f686fbf3cffc7d489cd7f12429f76ddf66eb431748fc07df56b18a888a7705cbc079e
+  languageName: node
+  linkType: hard
+
+"react-router-dom@npm:6.11.2":
+  version: 6.11.2
+  resolution: "react-router-dom@npm:6.11.2"
+  dependencies:
+    "@remix-run/router": "npm:1.6.2"
+    react-router: "npm:6.11.2"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: be7433bc290e56c0dd3e1008d53a76cc9866bf460980658501880876420086f11810ec3355a3abcd79ac537d6a1351eda009fade841c266456d0e8df60967b76
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.11.2":
+  version: 6.11.2
+  resolution: "react-router@npm:6.11.2"
+  dependencies:
+    "@remix-run/router": "npm:1.6.2"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: a437606078d6096a6dfa322adf80d00ce153f20cd470ad888088c8da99f44477b963425c53f5461a540b909fc274154292ed80d636482dcdc58a423915ca1433
   languageName: node
   linkType: hard
 
