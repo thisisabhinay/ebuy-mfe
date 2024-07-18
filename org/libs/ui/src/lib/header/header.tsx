@@ -44,10 +44,28 @@ export function Header() {
             <li>
               <a
                 href="/"
-                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white hover:dark:text-white md:dark:text-gray-200"
                 aria-current="page"
               >
                 Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/catalogue"
+                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white hover:dark:text-white md:dark:text-gray-200"
+                aria-current="page"
+              >
+                Catalogue
+              </a>
+            </li>
+            <li>
+              <a
+                href="/checkout"
+                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white hover:dark:text-white md:dark:text-gray-200"
+                aria-current="page"
+              >
+                Checkout
               </a>
             </li>
           </ul>
