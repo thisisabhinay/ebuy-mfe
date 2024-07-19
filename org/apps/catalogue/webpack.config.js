@@ -8,6 +8,18 @@ module.exports = {
   },
   devServer: {
     port: 4200,
+    proxy: [
+      {
+        context: ['/catalogue'],
+        target: 'http://localhost:4200/',
+        secure: false,
+      },
+      {
+        context: ['/checkout'],
+        target: 'http://localhost:4201/',
+        secure: false,
+      },
+    ],
   },
   plugins: [
     new NxAppWebpackPlugin({
