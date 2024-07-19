@@ -1,12 +1,21 @@
 import NxWelcome from './nx-welcome';
-import { Header } from "@org/ui"
+import { Header } from '@org/ui';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
+  const navigation = [
+    { label: 'Catalogue', href: '/catalogue' },
+    { label: 'Checkout', href: '/checkout' },
+    { label: 'Cart', href: '/cart' },
+  ];
   return (
     <div>
-      <Header/>
+      <Header
+        brandIcon="https://flowbite.com/docs/images/logo.svg"
+        brandName="Org"
+        menu={navigation}
+      />
       <NxWelcome title="catalogue" />
 
       {/* START: routes */}
