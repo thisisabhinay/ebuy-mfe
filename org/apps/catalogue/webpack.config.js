@@ -7,7 +7,7 @@ module.exports = {
     path: join(__dirname, '../../dist/apps/catalogue'),
   },
   devServer: {
-    port: 4201,
+    port: 4200,
   },
   plugins: [
     new NxAppWebpackPlugin({
